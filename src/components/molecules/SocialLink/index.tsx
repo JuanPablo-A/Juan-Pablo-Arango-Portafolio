@@ -3,10 +3,10 @@ import { TextPrincipalBold } from '@/components/atoms/Titles';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaDribbble, FaGithub } from 'react-icons/fa';
 
 const socialLinks = [
-    { icon: <FaGithub />, link: "https://github.com" },
-  { icon: <FaFacebookF />, link: "https://facebook.com" },
-  { icon: <FaInstagram />, link: "https://instagram.com" },
-  { icon: <FaLinkedinIn />, link: "https://linkedin.com" },
+    { icon: <FaGithub />, link: "https://github.com/Juanpablo-a" },
+  { icon: <FaFacebookF />, link: "https://www.facebook.com/juanpablo.arango.739/" },
+  { icon: <FaInstagram />, link: "https://www.instagram.com/juanpablo_030/" },
+  { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/juan-pablo-arango-gaviria-2a5339304/" },
   { icon: <FaYoutube />, link: "https://youtube.com" },
   { icon: <FaDribbble />, link: "https://dribbble.com" },
 ];
