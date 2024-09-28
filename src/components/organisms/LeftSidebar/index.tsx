@@ -6,18 +6,18 @@ import React from 'react'
 
 export default function LeftSidebar() {
   return (
-    <div className='flex flex-col h-screen w-80 bg-white items-center gap-2 inset-y-0 left-0'>
+    <div className='flex flex-col min-h-screen w-50 md:w-80 bg-white items-center gap-2 inset-y-0 left-0'>
         {/* Perfil con foto */}
         <div className='mt-4 border-b border-solid'>
             <ProfileCard 
                 Image='/imagenPerfil.png'
                 name='Juan Pablo Arango'
-                role='Frontend Developer'
+                role='Software Developer'
             />
         </div>
 
         {/* Personal Data */}
-        <div className='flex flex-col w-56 border-b border-solid gap-2 mt-4'>
+        <div className='flex flex-col w-48 lg:w-56 border-b border-solid gap-2 mt-4'>
             <div className='flex justify-between'>
                 <TextPrincipal text='Age'/>
                 <TextSecondary text='22'/>
