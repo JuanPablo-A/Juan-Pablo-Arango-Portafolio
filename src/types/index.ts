@@ -3,3 +3,10 @@ export type Lenguage = {
     name: string,
     progress: number
 }
+
+export type Item= {
+    id: string,
+    img: string,
+    title: string,
+    description: string
+}
