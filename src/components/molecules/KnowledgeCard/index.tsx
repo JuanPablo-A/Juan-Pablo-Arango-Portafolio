@@ -14,7 +14,7 @@ export default function KnowledgeCard({icon, title, description}: KnowledgeCardC
             {icon}
         </div>
         <TitleTertiary title={title}/>
-        <div className='flex p-2 h-1/2'>
+        <div className='flex p-2 h-1/2 lg:h-auto'>
           <TextSecondary text={description}/>
         </div>
     </div>
