@@ -8,7 +8,7 @@ env:
 jobs:
   Build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/BusquedaDeVuelosA' 
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
     steps: 
       - uses: actions/checkout@v2
       - name: Use Node.js 20.x
@@ -23,7 +23,7 @@ jobs:
   Deploy:
     needs: Build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/BusquedaDeVuelosA' 
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev' 
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js 20.x
