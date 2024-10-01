@@ -1,5 +1,6 @@
 import { Lenguage } from "@/types";
 
+// The data for the programming lenguages.
 const programmingLenguages: Lenguage[] = [
     {
         id: '1',
@@ -28,6 +29,7 @@ const programmingLenguages: Lenguage[] = [
     }
 ]
 
+// The data for the other lenguages.
 const otherLenguages: Lenguage[] = [
     {
         id: '6',
